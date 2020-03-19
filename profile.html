@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="widht=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Gaurav Profile</title>
+	<link rel="stylesheet" href="Profile.css">
+</head>
+<body>
+	<section class="banner" id="sec">
+		<header>
+			<a href="#" class="logo">Gaurav Tiwari
+			</a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+		<div class="content">
+			<h2>Hello world,<br>I am <span>Gaurav Tiwari
+			</span> </h2>
+			<p>loremhkbhhdhcb ohjuf hjs cuihsf eswfi efkheu hfu cdisfihsui fdskuib dsvfdsfu hiu fdisfuh difhdsf uihfoewf ew fouew fif iuf uis fdisd fihcswhui fihcswhui</p>
+			<a href="#">Know More</a>
+		</div>
+		<ul class="sci">
+			<li><a href="#"><img src="facebook.png"></a></li>
+			<li><a href="#"><img src="linkedin.png"></a></li>
+			<li><a href="#"><img src="twitter.png"></a>
+			</li>
+		</ul>		
+	</section>
+	<div id="navigation">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">about</a></li>
+			<li><a href="#">services</a></li>
+			<li><a href="#">portfolio</a></li>
+			<li><a href="#">contacts</a></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+	function toggle(){
+		var sec = document.getElementById('sec');
+		var nav = document.getElementById('navigation');
+		sec.classList.toggle('active');
+		nav.classList.toggle('active');
+	}
+</script>
+
+</body>
+</html>
