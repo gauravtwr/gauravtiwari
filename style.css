@@ -1,5 +1,3 @@
-
-
 *{
 	margin: 0;
 	padding: 0;
@@ -74,21 +72,21 @@ header #toggle:after
 	padding: 100px;
 	background: url(bgc1.jpg);
 	/*background-size: cover;*/
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	transition: 0.5s;
 	z-index: 2;
 }
 .banner.active
 {
-	transform: translateX(-400px);
+	transform: translateX(-300px);
 }
 #navigation
 {
 	position: fixed;
 	top: 0;
 	right: -200px;
-	width: 400px;
+	width: 300px;
 	height: 100vh;
 	background: #40c3ff;
 	z-index: 1;

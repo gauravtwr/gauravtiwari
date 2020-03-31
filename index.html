@@ -9,14 +9,14 @@
 <body>
 	<section class="banner" id="sec">
 		<header>
-			<a href="#" class="logo">Gaurav Tiwari
+			<a href="#" id="logo" class="logo">Gaurav Tiwari
 			</a>
-			<div id="toggle" onclick="toggle()"></div>
+			<div id="toggle" onclick="toggle(),align()"></div>
 		</header>
-		<div class="content">
+		<div onclick="align()" id="sec2" class="content">
 			<h2>Hello world,<br>I am <span>Gaurav Tiwari
 			</span> </h2>
-			<p>loremhkbhhdhcb ohjuf hjs cuihsf eswfi efkheu hfu cdisfihsui fdskuib dsvfdsfu hiu fdisfuh difhdsf uihfoewf ew fouew fif iuf uis fdisd fihcswhui fihcswhui</p>
+			<p>Engineer<span>Blogger</span> </p>
 			<a href="#">Know More</a>
 		</div>
 		<ul class="sci">
@@ -43,6 +43,13 @@
 		sec.classList.toggle('active');
 		nav.classList.toggle('active');
 	}
+
+	function align(){
+		document.getElementById("sec2").style.textAlign = "right";
+
+	}
+
+
 </script>
 
 </body>
